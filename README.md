@@ -8,7 +8,13 @@
 - [lest](https://github.com/martinmoene/lest)
     - Unit tests are written using lest test framework which is written in a [single-file header only](./include/lest.hpp).
 
+### Space Complexity Definition
+- Convention followed in this repository:
+    - Only the auxiliary space used by the algorithm is considered for space complexity.
+    - Space consumed by the input arguments are ignored.
+
 ### Problems
-| Problem | Solution | Unit Tests | Time Complexity | Space Complexity* |
-|---------|----------|------------|-----------------|-----------|
-|[Kth Smallest Element](https://www.codingninjas.com/codestudio/problems/kth-smallest-element_893056)|[C++](./src/kth_smallest_element.cpp)|Y|$O(n\;log k)$|$O(k)$|
+| # | Problem | Solution | Unit Tests | Time Complexity | Space Complexity* |
+|---|---------|----------|------------|-----------------|-----------|
+|800332|[Merge Two Sorted Linked Lists](./notes/README.md#id-800332--merge-two-sorted-linked-lists)|[C++](./src/merge_two_sorted_linked_lists.cpp)|Y|$O(m+n)$|$O(1)$
+|893056|[Kth Smallest Element](./notes/README.md#893056--kth-smallest-element)|[C++](./src/kth_smallest_element.cpp)|Y|$O(n\;log k)$|$O(k)$|
