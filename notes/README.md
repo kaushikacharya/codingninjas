@@ -11,5 +11,9 @@
 - [User KNOCKCAT's solution in Leetcode](https://leetcode.com/problems/merge-two-sorted-lists/solutions/1826666/c-easy-to-understand-2-approaches-recursive-iterative/):
     - Recursion approach also shared along with the iterative one.
 
-### 893056 :: Kth Smallest Element
+### ID: 893056 :: Kth Smallest Element
 - Approach: Use max heap of size at most $k$.
+
+### ID: 893106 :: Convert A Given Binary Tree To Doubly Linked List
+- Approach: In-place inorder traversal using stack.
+- [GeeksForGeeks](https://www.geeksforgeeks.org/convert-binary-tree-to-doubly-linked-list-by-keeping-track-of-visited-node/)
